@@ -6,7 +6,7 @@
 
 int main()
 {
-	char grade = 'F';
+	char grade = 'B';
 
 	switch (grade) {
 	case 'A': printf("Sweet! \n");
@@ -15,11 +15,12 @@ int main()
 		break;
 	case 'C': printf("I C you didnt study \n");
 		break;
-	case 'D': printf("That's embarrasing you ok? \n");
+	case 'D': printf("D's dont get degrees? \n");
 		break;
 	case 'F':
-		printf("Ouch, You ok? \n");
-	default: printf("That doesnt een make sense! \n");
+		printf("Not a passing grade \n");
+		break;
+	default: printf("That doesnt even make sense! \n");
 
 	}
 
